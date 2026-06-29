@@ -1,0 +1,9 @@
+
+body{font-family:Arial,sans-serif;background:#f7f2e8;margin:0;padding:20px;text-align:center}
+#inventory{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:20px}
+.word{padding:10px 16px;background:#fff;border:2px solid #c7a13a;border-radius:10px;cursor:grab}
+#slots{display:grid;grid-template-columns:repeat(4,120px);gap:12px;justify-content:center}
+.slot{width:120px;height:60px;border:2px dashed #b9a27c;border-radius:10px;background:#fffdf8;
+display:flex;align-items:center;justify-content:center}
+.slot.over{background:#fff0c8}
+.complete{background:#d8ffd8!important;border-style:solid}
